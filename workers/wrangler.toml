@@ -1,0 +1,20 @@
+name = "translate"
+type = "webpack"
+account_id =  "c15e30bd3c11a8cadbfe9e3e226c837b"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-01-26"
+
+[[kv_namespaces]]
+binding = "WP_GATSBY_KV"
+preview_id = "091a5a87e1924df8be5bd01157018704"
+id = "355a7ac0dc734c35aeba7ba9dd8e3a96"
+
+[vars]
+GOOGLE_API_URL = "https://translation.googleapis.com/language/translate/v2?key="
+
+# [secrets]
+# GOOGLE_API_KEY
